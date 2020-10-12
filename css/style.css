@@ -1,0 +1,158 @@
+/* BODY */
+body {
+  background-image: url("../images/background-orange.png");
+  background-repeat: repeat;
+  font-family: "Fugaz One", cursive;
+}
+h1,
+h2 {
+  float: left;
+  width: 39%;
+  background-color: white;
+  color: #ff6100;
+  font-size: x-large;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 2px;
+  text-align: center;
+}
+
+h3 {
+  font-size: x-large;
+  margin-bottom: 20px;
+}
+
+#maphoto {
+  float: left;
+  border-radius: 20px;
+  border: 1px orange solid;
+}
+
+#formation {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  margin-top: 10px;
+  background-color: white;
+  color: #ff6100;
+  padding: 5px;
+  line-height: 1.2em;
+  border-radius: 20px;
+}
+
+#experience {
+  float: right;
+  width: 45%;
+  margin-top: 10px;
+  background-color: white;
+  color: #ff6100;
+  padding: 5px;
+  line-height: 1.2em;
+  border-radius: 20px;
+}
+.formationexperience {
+  margin-bottom: 20px;
+}
+li {
+  position: relative;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+li > .fas {
+  position: absolute;
+}
+main {
+  clear: both;
+}
+
+footer {
+  border: 1px solid red;
+  clear: left;
+  background-color: white;
+  color: #ff6100;
+  margin-top: 10px;
+  line-height: 1.2em;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+form {
+  clear: both;
+  background-color: white;
+  color: #ff6100;
+  padding-top: 30px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  line-height: 1.2em;
+
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+button {
+  background-color: #ff6100;
+  border-radius: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  #formation {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    color: #ff6100;
+    padding: 5px;
+    line-height: 1.2em;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+
+  #experience {
+    float: left;
+    width: 100%;
+    background-color: white;
+    color: #ff6100;
+    padding: 5px;
+    line-height: 1.2em;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+}
+
+/* réécriture de FontAwesome */
+.fa-arrow-alt-circle-right {
+  position: relative;
+  padding-left: 30px;
+  border: 1px solid red;
+}
+.fa-arrow-alt-circle-right:before {
+  position: absolute;
+  left: 0;
+}
+
+.fa-graduation-cap {
+  position: relative;
+  padding-left: 50px;
+  border: 1px solid red;
+}
+
+.fa-graduation-cap:before {
+  position: absolute;
+  left: 0;
+}
+
+.fa-id-card-alt {
+  position: relative;
+  padding-left: 50px;
+  border: 1px solid red;
+}
+.fa-id-card-alt:before {
+  position: absolute;
+  left: 0;
+}
+.formationexperience {
+  border: 10px solid black;
+}
