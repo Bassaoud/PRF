@@ -1,0 +1,174 @@
+
+* {
+
+    margin: 0 auto;
+}
+
+/* BODY*/
+
+body {
+    max-width: 100%;
+    
+}
+/*HEADER*/
+header {
+    display: flex;
+    height: 90px;
+    background-color: grey;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: honeydew;
+}
+/*MAIN*/
+/*NAV*/
+nav {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 30%;
+    align-items: center;
+}
+.add-button {
+    width: 45px;
+    height: 45px;
+    background-color: green;
+    color: honeydew;
+    border-radius: 10px;
+    font-size: x-large;
+    border: hidden;
+    margin-right: 6px;
+}
+
+.category-nav {
+    width: 100px;
+    height: 35px;
+    background-color: gray;
+    color: honeydew;
+    border-radius: 10px;
+    border: hidden;
+}
+
+.fa-cog {
+    margin-left: 8px;
+}
+
+.card .fa-cog {
+    color: blanchedalmond;
+    font-size: 30px;
+}
+
+.category-nav a, .add-button a, footer a {
+    color: honeydew;
+    text-decoration: none;
+}
+.response-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.memo-category {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 30%;
+    align-items: center;
+}
+
+.card {
+    width: 250px;
+    height: 100px;
+    background-color: gray;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+    border:none;
+}
+
+.card h4 {
+    text-align: center;
+    color: honeydew;
+    padding: 5px;
+   
+}
+
+.card h4 a {
+    color: honeydew;
+    text-decoration: none;
+   
+}
+
+.fa-arrow-circle-left {
+    margin-right: 5px;
+}
+
+.fa-arrow-circle-right {
+    margin-left: 5px;
+}
+
+.response-button {
+    width: 150px;
+    height: 35px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    border: hidden;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    height: 30px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MEDIA QUERIES */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .memo-category {
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 90%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .memo-category {
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 45%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+/* Large devices (desktops, 992px and up) 
+@media (min-width: 992px) { 
+    .memo-category {
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 90%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) 
+@media (min-width: 1200px) { ... }*/
